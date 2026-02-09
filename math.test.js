@@ -1,5 +1,4 @@
-const fibonacci = require('./math');
-const resta = require('./math');
+const { fibonacci, resta } = require('./math');
 
 test('Resta de 10 - 5 debe ser 5', ()=>{
     expect(resta(10,5)).toBe(5);
